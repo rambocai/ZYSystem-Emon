@@ -25,9 +25,11 @@
     
     NSLog(@"idfv = %@", [SystemHelper getIdentifierForVendor]);
     
-    NSLog(@"sysIndo = %@", [SystemHelper getSystemInformation]);
+    NSLog(@"sysInfo = %@", [SystemHelper getSystemInformation]);
     
     [SystemHelper getApplicationInformation];
+    
+    NSLog(@"opInfo = %@", [SystemHelper getOperatorInfomation]);
 }
 
 /**
